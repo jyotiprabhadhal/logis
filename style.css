@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background: url(assets/images/hero-bg.png),rgb(14 29 52);
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#service{
+    color: #0d42ff;
+    text-align: center;
+}
+.btn-get{
+    background-color: #0d42ff;
+    color: white;
+    text-decoration: none;
+    padding: 4px 15px;
+}
+.container{
+   
+    padding-top: 20px;
+}
+#zip input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+
+}
+#zip{
+    background-color: white;
+    border-radius:8px;
+}
+#zip button{
+    border: none;
+    background-color: #0d42ff;
+    color: white;
+    padding: 10px;
+    border-radius:8px;
+
+}
+
+#service-card img{
+    transition: 0.5s;
+}
+#service-card img:hover{
+    transform: scale(1.2);
+}
+.call-action{
+    background:linear-gradient(rgb(10 22 40 / 60%), rgba(14, 29, 52, 0.8)),url(./assets/images/big.jpg);
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    align-items: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ctn-btn1{
+    background: transparent;
+    border: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px 25px;
+    transition: 0.5s;
+}
+.ctn-btn1:hover{
+    background: #0d42ff;
+    border: 1px solid #0d42ff;
+    color: aliceblue;
+}
+
+#product h3{
+    color: #0d42ff;
+}
+#product ul{
+    list-style: none;
+    padding: 0;
+}
+#product ul i{
+    color: #0d42ff;
+}
+
+#product1 h3{
+    color: #0d42ff;
+}
+#product1 ul{
+    list-style: none;
+    padding: 0;
+}
+#product1 ul i{
+    color: #0d42ff;
+}
+
+#product2{
+    color: #0d42ff;
+    text-align: center;
+
+}
+.ctn-btn1{
+    padding: 10px 30px;
+    color: #0d42ff;
+    text-align: center;
+    border-color: #0d42ff;
+    align-items: center;
+
+    
+    
+    
+}
+
+.product_box{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.product_box ul{
+    list-style: none;
+    
+}
+.product_box i{
+    color: green;
+}
+
+.crsl_banner{
+    background: linear-gradient(rgb(10 22 40 / 60%), rgba(14, 29, 52, 0.8)),url(./assets/images/testimonials-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.crsl_banner i{
+    color: yellow;
+}
+
+
+#product3{
+    color: #0d42ff;
+    text-align: center;
+
+}
+#product4{
+    background-color: rgb(2, 2, 82);
+    color: aliceblue;
+    text-decoration: aliceblue;
+}
+#product4 i{
+    border:1px solid white;
+    border-radius: 100%;
+    padding: 10px;
+}
+#product4 h5{
+
+    padding-top: 30px;
+}
+
+.footer_section{
+    width: 25%;
+}
+
+@media screen  and (max-width:768px){
+    .footer_section{
+        width: 100%;
+    }
+}
